@@ -26,8 +26,10 @@
 		
 		
 		?>
-   
-   
+		
+		<p>
+			<a href="index.php"> Index </a>
+		</p>
    
   </body>
 </html>
