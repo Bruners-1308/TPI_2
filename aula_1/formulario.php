@@ -13,13 +13,24 @@
 	<h1> Exibir nome </h1>
 	
 	<form method="POST">		
-		<input placeholder="Nome" type="text" name="txNome" />
-		<input type="submit" value="Exibir" />
+		<input placeholder="1ª nota" type="text" name="txNome" />
+		<input placeholder="2ª nota" type="text" name="txNome" />
+		<input placeholder="3ª nota" type="text" name="txNome" />
+		<input placeholder="4ª nota" type="text" name="txNome" />
+		
+		<input type="submit" value="Exibir Média" />
 	</form>
 	
 	<?php 	
 		$nome = $_POST["txNome"];		
-		echo "$nome";	
+		echo "$nome";		
+		
+		$notaa;
+		$notab;
+		$notac;
+		$notad;
+		
+		echo "a média das notas é = " . (($notaa + $notab + $notac + $notad) /4 )  .  "<br />";
 	?>
 	
 	
