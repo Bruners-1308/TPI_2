@@ -25,12 +25,20 @@
 		*/
 		
 		$a = 8;
-		echo "Aqui vai o texto";
-		echo $a;
+		$b = 3;
+		
+		echo "$a + $b = " . ($a + $b) .  "<br />";
+		echo "$a - $b = " . ($a - $b) .  "<br />";
+		echo "$a * $b = " . ($a * $b) .  "<br />";
+		echo "$a / $b = " . ($a / $b) .  "<br />";
 		
 		?>
    
-   
+		<p>
+		
+			<a href="media.php"> Media </a>
+		
+		<p>
    
   </body>
 </html>
