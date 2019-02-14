@@ -1,0 +1,26 @@
+1º Ligar o computador
+2º Abrir o Xampp
+3º Dar start no Apache e no MySql
+(ambos serviços devem ficar com a cor
+verde)
+4º Para testar o xampp:
+No navegador digitar:
+http://localhost
+5º Criando um projeto
+Abrir o endereço:
+C:\xampp\htdocs
+Dentro da pasta htdocs, criar uma 
+pasta com o nome do seu projeto.
+Exemplo: aula2
+6º Digitar todo o código
+7º Salvar o arquivo dentro da pasta 
+aula2, com a extensão .php 
+Exemplo: index.php
+8º Visualizando o projeto
+No navegador digitar:
+http://localhost/aula2 
+
+
+Para criar banco via navegador utilizando
+o Xampp
+http://localhost/phpmyadmin/
