@@ -1,0 +1,29 @@
+﻿body, *{
+   
+	
+}
+
+header{
+	background-color:#343a40;
+}
+header .menu nav{
+    background-color: #343a40;
+}
+
+#corfundo{
+	background-color:#343a40;
+}
+
+#image{
+
+	height:570px;
+}
+footer {
+	background-color: #343a40;
+	text-align: center;
+	padding: 30px;
+	border-radius: 0 0 10px 10px;
+	border-top: 10px solid #777bb3;
+	font-weight: bold;
+	color:white;
+}
