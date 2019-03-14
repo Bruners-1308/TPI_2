@@ -18,11 +18,14 @@
 	
 	$salario = $_POST["txNum1"];
 	$reajuste = $_POST["txNum2"];
-		
+	
+	echo "<br> Salário inicial: R$ $salario";
+	echo "<br> Percentual de reajuste: $reajuste %";
+	
 	$perc = $reajuste / 100;
 	$salreajust = $salario + ($salario * $perc);
 	
-	echo "Salário Reajustado: R$ ".number_format($salreajust);
+	echo "<br> Salário Reajustado: R$ ".number_format($salreajust);
 	
 	
 ?>

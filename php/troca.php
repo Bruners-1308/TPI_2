@@ -18,12 +18,14 @@
 		
 			$a = $_POST["txNum1"];
 			$b = $_POST["txNum2"];
-		
+			
+			echo "<br>Variável A = $a <br> Variável B = $b"; 
+			
 			$b = $b - $a;
 			$a = $b + $a;
 			$b = $a - $b;
 
-			echo "<br>a = $a <br>b = $b";
+			echo "<br> Variável A = $a <br> Variável B = $b";
 				
 	?>
 	

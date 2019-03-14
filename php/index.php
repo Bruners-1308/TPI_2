@@ -87,31 +87,31 @@
 			<tr>
 			  <th scope="row">5</th>
 			  <td> Valores <> </td>
-			  <td> <a class="nav-link" href="#">Exercício 5</a> </td> 
+			  <td> <a class="nav-link" href="valores.php">Exercício 5</a> </td> 
 			</tr>
 			
 			<tr>
 			  <th scope="row">6</th>
 			  <td> Times </td>
-			  <td> <a class="nav-link" href="#">Exercício 6</a> </td> 
+			  <td> <a class="nav-link" href="time.php">Exercício 6</a> </td> 
 			</tr>
 			
 			<tr>
 			  <th scope="row">7</th>
 			  <td> Quantidade de notas $ </td>
-			  <td> <a class="nav-link" href="#">Exercício 7</a> </td> 
+			  <td> <a class="nav-link" href="notas.php">Exercício 7</a> </td> 
 			</tr>
 			
 			<tr>
 			  <th scope="row">8</th>
-			  <td> Tabuladas </td>
-			  <td> <a class="nav-link" href="#">Exercício 8</a> </td> 
+			  <td> Tabuadas </td>
+			  <td> <a class="nav-link" href="tabuada.php">Exercício 8</a> </td> 
 			</tr>
 			
 			<tr>
 			  <th scope="row">9</th>
 			  <td> Multiplos de 3 </td>
-			  <td> <a class="nav-link" href="#">Exercício 9</a> </td> 
+			  <td> <a class="nav-link" href="multiplos.php">Exercício 9</a> </td> 
 			</tr>
 
 		  </tbody>
