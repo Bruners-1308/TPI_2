@@ -1,0 +1,51 @@
+header{
+	width: 90%;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: #B4CDCD;
+    text-align: center;
+    padding: 0px;
+	font-family: arial, sans-serif;
+	font-size:0.9em;
+	color: #191970;
+}
+	
+}
+footer p a{
+	font-family: arial, sans-serif;
+	color: #191970;
+	text-decoration: none;
+}
+
+       /* CSS DO LOGIN */
+#login{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+#h1{
+	text-align: center;
+	color:#1E90FF;
+	font-size:60px;
+	font-family:Arial;
+	
+}
+
+#button {
+    background-color: #1E90FF; /* Blue */
+    color: white;
+    padding: 5px 20px;
+    font-size: 15px;
+	border-radius: 50px;
+	
+	
+}
