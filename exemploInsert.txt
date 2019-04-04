@@ -1,0 +1,20 @@
+<?php
+	
+	$nome = isset($_POST['txNome'])? $_POST['txNome'] :'';
+	$email = isset($_POST['txEmail'])? $_POST['txEmail'] :'';
+	$assunto = isset($_POST['txAssunto'])? $_POST['txAssunto'] :'';
+	$msg = isset($_POST['txMsg'])? $_POST['txMsg'] :'';
+
+	require('conexao.php');
+	
+	try {		
+		$stmt = $pdo->prepare("INSERT INTO tbContato VALUES(null,'$nome','$email','$assunto','$msg')");		
+		$stmt->execute();				 				 		
+		$stmt = null;
+		
+		
+	}catch(PDOException $e) {
+		echo 'Error: ' . $e->getMessage();
+	}
+
+?>
