@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+/*HEADER */
+header ul {
+	display: flex;
+	background: #343a40;
+	padding: 1em;
+	list-style: none;
+	text-decoration: none;
+	font-style: none;
+	
+}
+
+header ul li a{
+	margin-left: 1.5em;
+	font-family: Helvetica;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+}
+h1{
+    
+    margin-left: 2em;
+}
+
+

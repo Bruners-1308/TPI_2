@@ -1,0 +1,18 @@
+Exercícios
+
+1 - Fazer o código da consulta funcionar com o seu banco de dados
+
+2 - Explicar a diferença dos comandos:
+require
+include
+require_once
+include_once
+
+3 - Fazer uma consulta que exiba apenas os  data de cadastro e nome do usuário da 
+tabela login
+
+4 - Usando bootstrap, exibir os dados da consulta do exercício 3  dentro de
+uma tabela html.
+
+5 - Criar um página chamada cadastrar-usuario.php com os campos necessários.
+(só html)
