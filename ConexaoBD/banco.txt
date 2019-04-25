@@ -1,0 +1,28 @@
+create database dbMusica;
+
+use dbMusica;
+
+create table tbLogin (
+	idLogin int primary key auto_increment
+    ,dtCadastro date
+    ,usuario varchar (50)
+    ,senha varchar (10)
+);
+
+insert into tbLogin values (null, '2019-04-03', 'Thiago', 'J@k789878');
+insert into tbLogin values (null, '2019-04-02', 'José', 'abc123456');
+insert into tbLogin values (null, '2019-04-03', 'Maria', '123abc456');
+insert into tbLogin values (null, '2019-03-29', 'João', 'T!@g0');
+insert into tbLogin values (null, '2019-04-01', 'Pedro', '56548754');
+
+select * from tbLogin;
+
+create table tbContato (
+	idContato int primary key auto_increment
+    ,nome varchar (50)
+    ,email varchar (60)
+    ,assunto varchar (100)
+    ,msg varchar (500)
+);
+
+select * from tbContato;
