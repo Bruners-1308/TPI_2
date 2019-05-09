@@ -10,7 +10,7 @@
 	
 		<nav class="navbar navbar-light bg-light">
 		<img src="images/imagem.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
-		<a class="navbar-brand" href="#">Cabeçalho</a> 
+		<a class="navbar-brand">Cabeçalho</a> 
 		</nav>
 
     

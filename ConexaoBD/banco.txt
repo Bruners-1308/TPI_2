@@ -9,14 +9,6 @@ create table tbLogin (
     ,senha varchar (10)
 );
 
-insert into tbLogin values (null, '2019-04-03', 'Thiago', 'J@k789878');
-insert into tbLogin values (null, '2019-04-02', 'José', 'abc123456');
-insert into tbLogin values (null, '2019-04-03', 'Maria', '123abc456');
-insert into tbLogin values (null, '2019-03-29', 'João', 'T!@g0');
-insert into tbLogin values (null, '2019-04-01', 'Pedro', '56548754');
-
-select * from tbLogin;
-
 create table tbContato (
 	idContato int primary key auto_increment
     ,nome varchar (50)
@@ -25,4 +17,30 @@ create table tbContato (
     ,msg varchar (500)
 );
 
+
+create table tbAlbum(
+	idAlbum int primary key auto_increment
+    ,dt date
+    ,titulo varchar (100)
+    ,caminhoImg varchar (200)
+    ,resumo varchar (200)
+    ,conteudo varchar (2000)
+);
+
+****************************
+
+insert into tbLogin values (null, '2019-04-03', 'Thiago', 'J@k789878');
+insert into tbLogin values (null, '2019-04-02', 'José', 'abc123456');
+insert into tbLogin values (null, '2019-04-03', 'Maria', '123abc456');
+insert into tbLogin values (null, '2019-03-29', 'João', 'T!@g0');
+insert into tbLogin values (null, '2019-04-01', 'Pedro', '56548754');
+
+insert into tbAlbum values (null, '2019-05-08', 'Bad', 'images/bad.jpg', 'Resumo Bad', 'conteúdo Bad');
+insert into tbAlbum values (null, '2019-05-08', 'Dangerous','images/Dangerous.jpg', 'Resumo Dangerous', 'conteúdo Dangerous');
+insert into tbAlbum values (null, '2019-05-08', 'Thriller','images/thriller.jpg', 'Resumo thriller', 'conteúdo thriller');
+
+*******************************************
+
+select * from tbLogin;
 select * from tbContato;
+select * from tbAlbum;

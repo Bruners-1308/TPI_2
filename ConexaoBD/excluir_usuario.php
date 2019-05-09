@@ -1,6 +1,5 @@
 <?php
    $idExcluir=$_GET['idUsuario'];
-
   require("conexao.php");
   
   try{
@@ -12,5 +11,4 @@
   }catch(PDOException $e){
 	  echo 'Error: ' . $e->getMessage();
   }
-
 ?>
